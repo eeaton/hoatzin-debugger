@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+margin:0;
+padding:0;
+}
+body {
+	padding:5px;
+	background-color: #FFFFFF;
+} 
+td,th {padding:0px; font-size:8pt; text-decoration:none;border-bottom:1px solid #999999;} 
+
+a {
+color:#325C00;
+}
+img {
+	border-width:0px;
+}
+table {
+border-spacing:1px;
+margin-bottom:5px;
+}
+body, input, textarea, select, .text {
+color:#293431;
+font-family:arial,"lucida console",sans-serif;
+font-size:8pt;
+}
+
+.producttable {border: 0 none; border-collapse: collapse; font: 11px arial,sans-serif; color: rgb(0, 0, 0); padding: 0px; text-align:left; width:100%;} 
+.producttable th{background-color:#CED8D0; border: 1px solid #AAA; padding: 1px 3px 1px 3px }
+
+.debugtable {border: 0 none; border-collapse: collapse; font: 11px arial,sans-serif; color: rgb(0, 0, 0); padding: 0px; text-align:left; width:100%;} 
+
+.debugtable td,th{ border: 1px solid #AAA; padding: 1px 3px 1px 3px }
+
+.invisible td{display: none}
+
+.mismatch td{color:red}
+
+td.parameter{ width:50px;}
+
+td.value{display:table-cell}
+
+p.imgNum{
+	background: blue;
+	color:white;
+	font-weight:bold;
+	padding: 2px;
+	}
+
+
+
+div.help {
+color:#293431;
+padding:4px 4px 4px 8px;
+visibility:hidden;
+z-index:3;
+border: 1px solid #000;
+background-color: #CED8D0;
+position:absolute;
+width:500;
+font-weight:bold;
+
+}
+.options{
+border:0px;
+font-weight:normal;
+
+}
+
+.sc_debug_table{
+	
+	width: 100%;
+	border: black double 1px;
+}
+
+.sc_debug_table table{
+	width: 100%;
+	border: black double 1px;
+}
+
+.sc_debug_table td{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: gray double 1px;
+	
+}
+
+.parameter td{
+	width: 50px;
+}
+
+.options input{
+	position:relative;
+	top:2px;
+}
+p.rpt_title {
+color:#293431;
+margin:4px 4px 4px 8px;
+background-color: #ffffff;
+}
+
+h1.rpt_title {
+color:#ffffff;
+float:left;
+font-size:14px;
+font-weight:bold;
+}
+.help_link {
+	float:right;
+	color:#ffffff;
+}
+.help_link a{
+	color:#ffffff;
+}
+
+.rpt_header {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#BF0000 scroll left bottom;
+height:16px;
+padding:4px 10px 6px;
+}
